@@ -1,0 +1,444 @@
+{
+  "cyber.grid.v1": {
+    "kind": "ride",
+    "tags": [
+      "neon",
+      "obd"
+    ]
+  },
+  "moto-hub-studio.ai-copilot": {
+    "kind": "engine",
+    "tags": [
+      "hud",
+      "telemetry"
+    ]
+  },
+  "moto-hub-studio.red-flash-obd-pov": {
+    "kind": "engine",
+    "tags": [
+      "3d",
+      "obd"
+    ]
+  },
+  "moto-hub-studio.map-widgets": {
+    "kind": "touring",
+    "tags": [
+      "3d",
+      "widgets",
+      "obd"
+    ]
+  },
+  "moto-hub-studio.twin-arc": {
+    "kind": "ride",
+    "tags": [
+      "sport",
+      "shift-lights",
+      "obd"
+    ]
+  },
+  "moto-hub-studio.nouveau": {
+    "kind": "minimal",
+    "tags": [
+      "art-nouveau",
+      "colourful",
+      "no-map"
+    ]
+  },
+  "moto-hub-studio.potion-ride": {
+    "kind": "minimal",
+    "tags": [
+      "comic",
+      "pepper-and-carrot",
+      "no-map"
+    ]
+  },
+  "moto-hub-studio.portrait-aviator-hud": {
+    "kind": "touring",
+    "tags": [
+      "hud",
+      "3d",
+      "portrait"
+    ]
+  },
+  "moto-hub-studio.portrait-blueprint": {
+    "kind": "minimal",
+    "tags": [
+      "blueprint",
+      "engineering",
+      "portrait"
+    ]
+  },
+  "moto-hub-studio.portrait-explorer": {
+    "kind": "touring",
+    "tags": [
+      "adventure",
+      "topo",
+      "portrait"
+    ]
+  },
+  "moto-hub-studio.portrait-mission-control": {
+    "kind": "engine",
+    "tags": [
+      "telemetry",
+      "space",
+      "portrait"
+    ]
+  },
+  "moto-hub-studio.portrait-neon-grid": {
+    "kind": "ride",
+    "tags": [
+      "synthwave",
+      "neon",
+      "portrait"
+    ]
+  },
+  "moto-hub-studio.portrait-noir": {
+    "kind": "minimal",
+    "tags": [
+      "noir",
+      "cinema",
+      "portrait"
+    ]
+  },
+  "moto-hub-studio.portrait-obd-garage": {
+    "kind": "engine",
+    "tags": [
+      "obd",
+      "diagnostics",
+      "portrait"
+    ]
+  },
+  "moto-hub-studio.portrait-retro-arcade": {
+    "kind": "minimal",
+    "tags": [
+      "arcade",
+      "8-bit",
+      "portrait"
+    ]
+  },
+  "moto-hub-studio.portrait-sensor-lab": {
+    "kind": "engine",
+    "tags": [
+      "sensors",
+      "lab",
+      "portrait"
+    ]
+  },
+  "moto-hub-studio.portrait-terminal": {
+    "kind": "minimal",
+    "tags": [
+      "terminal",
+      "nerd",
+      "portrait"
+    ]
+  },
+  "moto-hub-studio.night-ride": {
+    "kind": "minimal",
+    "tags": [
+      "night",
+      "minimal",
+      "high-contrast",
+      "portrait"
+    ]
+  },
+  "moto-hub-studio.touring": {
+    "kind": "touring",
+    "tags": [
+      "touring",
+      "range",
+      "weather",
+      "map",
+      "portrait"
+    ]
+  },
+  "moto-hub-studio.track-day": {
+    "kind": "track",
+    "tags": [
+      "track",
+      "lap-timer",
+      "lean",
+      "shift-lights",
+      "portrait"
+    ]
+  },
+  "moto-hub-studio.offroad": {
+    "kind": "ride",
+    "tags": [
+      "offroad",
+      "inclinometer",
+      "compass",
+      "adventure",
+      "portrait"
+    ]
+  },
+  "moto-hub-studio.big-and-bold": {
+    "kind": "minimal",
+    "tags": [
+      "accessibility",
+      "large-text",
+      "high-contrast",
+      "minimal",
+      "portrait"
+    ]
+  },
+  "moto-hub-studio.my-bike": {
+    "kind": "ride",
+    "tags": [
+      "photo",
+      "personal",
+      "portrait"
+    ]
+  },
+  "moto-hub-studio.wow-3d-ride": {
+    "kind": "ride",
+    "tags": [
+      "3d",
+      "animated",
+      "lean",
+      "hud"
+    ],
+    "featured": true
+  },
+  "moto-hub-studio.ride-modes": {
+    "kind": "ride",
+    "tags": [
+      "menu",
+      "modes",
+      "animated",
+      "ultra-wide"
+    ],
+    "featured": true
+  },
+  "moto-hub-studio.sport-strip": {
+    "kind": "engine",
+    "tags": [
+      "rpm",
+      "strip",
+      "shift-light",
+      "ultra-wide"
+    ],
+    "featured": false
+  },
+  "moto-hub-studio.pov-visor": {
+    "kind": "ride",
+    "tags": [
+      "3d",
+      "hud",
+      "lean"
+    ],
+    "featured": true
+  },
+  "moto-hub-studio.pov-jet-hud": {
+    "kind": "ride",
+    "tags": [
+      "3d",
+      "hud",
+      "lean",
+      "tapes"
+    ],
+    "featured": false
+  },
+  "moto-hub-studio.pov-cinema": {
+    "kind": "touring",
+    "tags": [
+      "3d",
+      "cinema",
+      "minimal"
+    ],
+    "featured": false
+  },
+  "moto-hub-studio.pov-windscreen": {
+    "kind": "ride",
+    "tags": [
+      "3d",
+      "analogue",
+      "obd"
+    ],
+    "featured": false
+  },
+  "moto-hub-studio.pov-pillars": {
+    "kind": "ride",
+    "tags": [
+      "3d",
+      "triptych"
+    ],
+    "featured": false
+  },
+  "moto-hub-studio.pov-rally-scope": {
+    "kind": "touring",
+    "tags": [
+      "3d",
+      "rally",
+      "turns"
+    ],
+    "featured": false
+  },
+  "moto-hub-studio.pov-skywriter": {
+    "kind": "minimal",
+    "tags": [
+      "3d",
+      "big-speed"
+    ],
+    "featured": true
+  },
+  "moto-hub-studio.pov-drone-feed": {
+    "kind": "minimal",
+    "tags": [
+      "3d",
+      "camera",
+      "telemetry"
+    ],
+    "featured": false
+  },
+  "moto-hub-studio.pov-turbo-stage": {
+    "kind": "ride",
+    "tags": [
+      "3d",
+      "arcade",
+      "rpm"
+    ],
+    "featured": false
+  },
+  "moto-hub-studio.pov-pass-hunter": {
+    "kind": "touring",
+    "tags": [
+      "3d",
+      "mountain",
+      "altitude"
+    ],
+    "featured": false
+  },
+  "moto-hub-studio.aa-side-rail": {
+    "kind": "ride",
+    "tags": [
+      "android-auto",
+      "module"
+    ],
+    "featured": true
+  },
+  "moto-hub-studio.aa-top-deck": {
+    "kind": "ride",
+    "tags": [
+      "android-auto",
+      "module"
+    ],
+    "featured": false
+  },
+  "moto-hub-studio.aa-dial-drive": {
+    "kind": "ride",
+    "tags": [
+      "android-auto",
+      "module",
+      "analogue"
+    ],
+    "featured": false
+  },
+  "moto-hub-studio.aa-frame": {
+    "kind": "ride",
+    "tags": [
+      "android-auto",
+      "module"
+    ],
+    "featured": false
+  },
+  "moto-hub-studio.player-one": {
+    "kind": "ride",
+    "tags": [
+      "8-bit",
+      "pixel-art",
+      "retro",
+      "3d"
+    ],
+    "featured": true
+  },
+  "moto-hub-studio.aa-sunset-drive": {
+    "kind": "ride",
+    "tags": [
+      "android-auto",
+      "module",
+      "synthwave",
+      "neon",
+      "animated"
+    ],
+    "featured": true
+  },
+  "moto-hub-studio.aa-comic": {
+    "kind": "ride",
+    "tags": [
+      "android-auto",
+      "module",
+      "comic",
+      "colourful",
+      "animated"
+    ],
+    "featured": true
+  },
+  "moto-hub-studio.aa-porthole": {
+    "kind": "ride",
+    "tags": [
+      "android-auto",
+      "module",
+      "lean",
+      "inclinometer",
+      "animated"
+    ],
+    "featured": false
+  },
+  "moto-hub-studio.aa-hi-fi": {
+    "kind": "ride",
+    "tags": [
+      "android-auto",
+      "module",
+      "retro",
+      "analogue",
+      "animated"
+    ],
+    "featured": false
+  },
+  "moto-hub-studio.danny-dash-aa": {
+    "kind": "touring",
+    "tags": [
+      "android-auto",
+      "module"
+    ]
+  },
+  "moto-hub-studio.porthole": {
+    "kind": "touring",
+    "tags": [
+      "3d",
+      "round",
+      "animated",
+      "lean"
+    ]
+  },
+  "moto-hub-studio.head-unit-home": {
+    "kind": "touring",
+    "tags": [
+      "touch",
+      "head-unit",
+      "music",
+      "apps"
+    ]
+  },
+  "moto-hub-studio.head-unit-drive": {
+    "kind": "touring",
+    "tags": [
+      "touch",
+      "head-unit",
+      "music",
+      "apps",
+      "map-app",
+      "android-auto-style"
+    ]
+  },
+  "moto-hub-studio.trail-deck": {
+    "kind": "touring",
+    "tags": [
+      "touch",
+      "head-unit",
+      "map-app",
+      "roadbook",
+      "companion"
+    ]
+  }
+}

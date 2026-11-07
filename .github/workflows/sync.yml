@@ -1,0 +1,38 @@
+name: Sync from upstream
+
+# 每天把官方 vincenzobpt/MOTO-HUB-modules 的仪表盘/模块图片/音效清单同步过来，
+# 并用 tools/modules-zh.json 重新生成中文 index.json。
+on:
+  schedule:
+    - cron: "23 3 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sync
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: 同步
+        run: python3 tools/sync.py
+
+      - name: 提交变更
+        run: |
+          set -euo pipefail
+          if git diff --quiet && [ -z "$(git status --porcelain)" ]; then
+            echo "没有变更"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -m "sync: update from upstream $(date -u +%Y-%m-%dT%H:%MZ)"
+          git push

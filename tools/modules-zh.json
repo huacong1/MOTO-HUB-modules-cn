@@ -1,0 +1,42 @@
+{
+  "android-auto": {
+    "displayName": "Android Auto",
+    "summary": "在摩托车屏幕上运行 Android Auto。",
+    "tagline": "在摩托车屏幕上使用 Android Auto：地图、音乐和通话。"
+  },
+  "motohub-flyby": {
+    "displayName": "Flyby",
+    "summary": "把一次行程、一条已保存的路线或导航路线变成一支 3D 影片。",
+    "tagline": "让你骑过的路再飞一次：任意行程的 3D 影片，并配有专为它谱写的配乐。"
+  },
+  "flyby-route-simulator": {
+    "displayName": "Flyby 路线模拟器",
+    "summary": "规划一条你还没骑过的路线，并把它模拟成 Flyby 影片。",
+    "tagline": "还没骑过的路：横跨欧洲的精选「体验」，模拟成 Flyby 影片。"
+  },
+  "dashcam": {
+    "displayName": "行车记录仪",
+    "summary": "连接 Wi-Fi 行车记录仪或 IP 摄像头：实时画面、录像、拍照、设置和存储卡文件。",
+    "tagline": "把 Wi-Fi 行车记录仪装进 App，也显示在仪表盘的地图面板上。"
+  },
+  "dawarich": {
+    "displayName": "Dawarich",
+    "summary": "把行程记录到你自己的 Dawarich 服务器，或带着这次行程启动 Dawarich App。",
+    "tagline": "把行程记录在你自己的 Dawarich 服务器上，骑行时自动记录。"
+  },
+  "immich": {
+    "displayName": "Immich",
+    "summary": "在导航地图上显示你自己 Immich 服务器里的照片。",
+    "tagline": "你的 Immich 照片会出现在导航地图上拍摄它的位置。"
+  },
+  "tomtom": {
+    "displayName": "TomTom",
+    "summary": "用你自己的免费 TomTom 密钥获取实时路况、地点、搜索与道路信息。",
+    "tagline": "在导航地图上显示实时路况、地点和限速。"
+  },
+  "mapopt": {
+    "displayName": "MapOpt",
+    "summary": "用你自己的 Mapbox 令牌驱动 3D 地图：包含地形、树木、地标和光照的 Mapbox Standard。",
+    "tagline": "在 3D POV 和导航地图上使用 Mapbox Standard。"
+  }
+}
