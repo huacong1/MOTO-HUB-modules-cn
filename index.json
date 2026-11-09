@@ -7,8 +7,8 @@
     "image": "modules/android-auto/card.webp",
     "accent": "#5BA8F0",
     "contractVersion": 37,
-    "owner": "huacong1",
-    "repository": "MOTO-HUB-modules-cn"
+    "owner": "vincenzobpt",
+    "repository": "MOTO-HUB-modules"
   },
   {
     "id": "motohub-flyby",
@@ -18,8 +18,8 @@
     "image": "modules/motohub-flyby/card.webp",
     "accent": "#FFB23F",
     "contractVersion": 28,
-    "owner": "huacong1",
-    "repository": "MOTO-HUB-modules-cn"
+    "owner": "vincenzobpt",
+    "repository": "MOTO-HUB-modules"
   },
   {
     "id": "flyby-route-simulator",
@@ -29,8 +29,8 @@
     "accent": "#7FD17A",
     "image": "modules/flyby-route-simulator/card.webp",
     "contractVersion": 22,
-    "owner": "huacong1",
-    "repository": "MOTO-HUB-modules-cn"
+    "owner": "vincenzobpt",
+    "repository": "MOTO-HUB-modules"
   },
   {
     "id": "dashcam",
@@ -40,8 +40,8 @@
     "accent": "#E8665C",
     "image": "modules/dashcam/card.webp",
     "contractVersion": 37,
-    "owner": "huacong1",
-    "repository": "MOTO-HUB-modules-cn"
+    "owner": "vincenzobpt",
+    "repository": "MOTO-HUB-modules"
   },
   {
     "id": "dawarich",
@@ -51,8 +51,8 @@
     "accent": "#4FB3BF",
     "image": "modules/dawarich/card.webp",
     "contractVersion": 27,
-    "owner": "huacong1",
-    "repository": "MOTO-HUB-modules-cn"
+    "owner": "vincenzobpt",
+    "repository": "MOTO-HUB-modules"
   },
   {
     "id": "immich",
@@ -62,8 +62,8 @@
     "accent": "#4250AF",
     "image": "modules/immich/card.webp",
     "contractVersion": 37,
-    "owner": "huacong1",
-    "repository": "MOTO-HUB-modules-cn"
+    "owner": "vincenzobpt",
+    "repository": "MOTO-HUB-modules"
   },
   {
     "id": "tomtom",
@@ -73,8 +73,8 @@
     "image": "modules/tomtom/card.webp",
     "accent": "#FF6B5B",
     "contractVersion": 32,
-    "owner": "huacong1",
-    "repository": "MOTO-HUB-modules-cn"
+    "owner": "vincenzobpt",
+    "repository": "MOTO-HUB-modules"
   },
   {
     "id": "mapopt",
@@ -84,7 +84,7 @@
     "image": "modules/mapopt/card.webp",
     "accent": "#4264FB",
     "contractVersion": 36,
-    "owner": "huacong1",
-    "repository": "MOTO-HUB-modules-cn"
+    "owner": "vincenzobpt",
+    "repository": "MOTO-HUB-modules"
   }
 ]
