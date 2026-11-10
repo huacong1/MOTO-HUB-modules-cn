@@ -26,6 +26,11 @@ import urllib.request
 from pathlib import Path
 
 UPSTREAM = "vincenzobpt/MOTO-HUB-modules"
+
+# 本镜像仓：凡是我们重签并发布过 .mhm 的模块，index.json 里的 owner/repository
+# 必须指回这里，否则 App 会去官方仓找 releases，看不到我们的中文包（会被每日同步覆盖，故写死在同步脚本里）。
+MIRROR_OWNER = "huacong1"
+MIRROR_REPO = "MOTO-HUB-modules-cn"
 BRANCH = "main"
 ROOT = Path(__file__).resolve().parent.parent
 PREFIXES = ("dashboards/", "modules/", "sounds/")
@@ -58,6 +63,8 @@ def main() -> int:
     entries = [e for e in tree["tree"]
                if e["type"] == "blob" and (e["path"] == "index.json" or e["path"].startswith(PREFIXES))]
     zh_map = json.load(open(ROOT / "tools" / "modules-zh.json", encoding="utf-8"))
+    mirror_ids_path = ROOT / "tools" / "mirror-modules.json"
+    mirror_ids = set(json.load(open(mirror_ids_path, encoding="utf-8"))) if mirror_ids_path.exists() else set()
 
     changed, downloaded, warned = [], 0, []
     for e in entries:
@@ -91,6 +98,9 @@ def main() -> int:
             nm["tagline"] = z["tagline"]
         else:
             warned.append(m["id"])
+        if m["id"] in mirror_ids:
+            nm["owner"] = MIRROR_OWNER
+            nm["repository"] = MIRROR_REPO
         modules.append(nm)
     text = json.dumps(modules, ensure_ascii=False, indent=2) + "\n"
     idx_path = ROOT / "index.json"
