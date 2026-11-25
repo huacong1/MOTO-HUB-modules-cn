@@ -443,9 +443,6 @@
   },
   "vincenzo.mh-gui-classic": {
     "kind": "ride",
-    "tags": [
-      "android-auto-replacement"
-    ],
     "featured": true
   },
   "vincenzo.comic": {
@@ -588,5 +585,8 @@
       "obd",
       "368g"
     ]
+  },
+  "eduven97.midnight": {
+    "kind": "engine"
   }
 }
